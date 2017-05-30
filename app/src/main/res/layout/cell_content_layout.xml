@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:background="@drawable/btn">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IP:"
+            android:id="@+id/ip1_address"
+            android:gravity="left|center"
+            android:textSize="23dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic|bold"
+            android:textColor="#151c9c" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:background="@drawable/unfolded_bg">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Connection Time:"
+            android:id="@+id/connection_time"
+            android:gravity="left|center"
+            android:textSize="20dp"
+            android:layout_marginLeft="18dp"
+            android:textStyle="italic|bold"
+            android:textColor="#08003f"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/unfolded_bg"
+        android:layout_margin="4dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mac ID:"
+            android:id="@+id/mac_id"
+            android:gravity="left|center"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic|bold"
+            android:textColor="#151c9c" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
